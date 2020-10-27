@@ -1,1 +1,71 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: white;
+  background-color: #1e2122;
+}
+
+header {
+  background-image: url(../Assets/bg.png);
+  height: 100vmin;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#showcase {
+  height: 100vmin;
+}
+
+#gallery {
+  height: 100vmin;
+}
+
+.left-landing {
+  width: 100%;
+  max-width: 410px;
+  margin-top: 30px;
+}
+
+.right-landing {
+  margin-top: 400px;
+}
+
+.description-text {
+  font-weight: 300;
+}
+
+.btn-outline-dark {
+  color: white;
+  border-radius: 0;
+}
+
+.btn-outline-dark:hover {
+  background-color: #1e2122;
+}
+
+.heading-one {
+  font-size: 40px;
+}
+/*# sourceMappingURL=main.css.map */
