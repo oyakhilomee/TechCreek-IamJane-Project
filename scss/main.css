@@ -36,6 +36,7 @@ header {
 
 #showcase {
   height: 100vmin;
+  color: #a4a4a4;
 }
 
 #gallery {
@@ -72,5 +73,11 @@ header {
 .about-me-p {
   font-weight: 700;
   font-size: 30px;
+}
+
+.gallery-image {
+  height: 349px;
+  width: 320px;
+  border: 2px solid #00d900;
 }
 /*# sourceMappingURL=main.css.map */

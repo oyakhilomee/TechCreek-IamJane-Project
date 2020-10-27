@@ -3,6 +3,7 @@ $color-two: rgb(0, 217, 0);
 $color-three: rgb(181, 175, 166);
 $color-four: rgb(125, 150, 110);
 $color-five: rgb(255, 255, 255);
+$ccolor-six: rgb(164, 164, 164);
 
 *,
 html {
@@ -42,6 +43,7 @@ header {
 
 #showcase {
   height: 100vmin;
+  color: $ccolor-six;
 }
 
 #gallery {
@@ -63,7 +65,7 @@ header {
 }
 
 .btn-outline-dark {
-  color: $color-five;
+  color: white;
   border-radius: 0;
 }
 
@@ -78,4 +80,10 @@ header {
 .about-me-p {
   font-weight: 700;
   font-size: 30px;
+}
+
+.gallery-image {
+  height: 349px;
+  width: 320px;
+  border: 2px solid $color-two;
 }
