@@ -31,6 +31,17 @@
     <header id="header-section" class="vh-100">
       <div class="container">
         <nav class="navbar navbar-expand justify-content-end">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
           <ul class="navbar-nav my-2">
             <li class="nav-item">
               <a href="" class="nav-link">Home</a>
@@ -46,6 +57,7 @@
             </li>
           </ul>
         </nav>
+        <!-- End of navigation section-->
 
         <div
           class="landing-page d-flex align-items-center justify-content-between"
@@ -86,10 +98,10 @@
 
     <section id="showcase" class="vh-100">
       <div class="container d-flex align-items-center justify-content-around">
-        <div class="ml-5">
-          <img src="./Assets/px-2.png" class="vh-100" alt="" srcset="" />
+        <div class="ml-5 col-md-6">
+          <img src="./Assets/px-2.png" class="" alt="" srcset="" />
         </div>
-        <div class="container mx-5">
+        <div class="container flex-column col-md-6">
           <p class="about-me-p">About Me</p>
           <p>
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -115,12 +127,12 @@
     </section>
 
     <section id="gallery" class="vh-100">
-      <div class="container">
-        <div class="mt-5 d-flex justify-content-between">
-          <div>
+      <div class="container vh-100">
+        <div class="row">
+          <div class="col-md-4">
             <img class="gallery-image" src="./Assets/pic2.png" alt="" />
           </div>
-          <div>
+          <div class="col-md-4">
             <img
               class="gallery-image"
               src="./Assets/px-2.png
@@ -128,15 +140,92 @@
               alt=""
             />
           </div>
-          <div>
+          <div class="col-md-4">
             <img class="gallery-image" src="./Assets/pic3.png" alt="" />
           </div>
         </div>
         <!-- End of Gallery-Boxes -->
+        <div class="contact-section row mt-5">
+          <div class="contact-left col-md-5">
+            <div>
+              <p class="contact-left-text text-uppercase">
+                i'd love to hear from you
+              </p>
+            </div>
+            <!-- End of contact-left-text -->
+            <div class="d-flex">
+              <div class="">
+                <i class="fab fa-facebook-f px-2"></i>
+              </div>
+              <div>
+                <i class="fab fa-instagram px-2"></i>
+              </div>
+              <div>
+                <i class="fab fa-twitter px-2"></i>
+              </div>
+            </div>
+            <!-- End of social icons -->
+          </div>
+          <!-- End of contact left-->
+          <div class="contact-right d-flex col-md-7">
+            <div class="form-label-side flex-column">
+              <div class="">
+                <p>Name</p>
+              </div>
+              <div>
+                <p>Email</p>
+              </div>
+              <div>
+                <p>Message</p>
+              </div>
+            </div>
+            <!--End of form-label-side -->
+            <div class="form ml-4">
+              <form>
+                <!-- <h3 class="text-uppercase">contact form</h3> -->
+                <div class="form-group col-xs-4">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="exampleInputPassword1"
+                  />
+                </div>
+                <div class="form-group">
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                  ></textarea>
+                </div>
+
+                <div class="text-right">
+                  <button type="submit" class="btn btn-outline-dark px-5">
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </div>
+            <!-- End of form Div-->
+          </div>
+          <!-- End of contact-section-->
+        </div>
       </div>
       <!-- End of gallery container -->
     </section>
 
+    <footer>
+      <div class="container">
+        <div class="footer-text text-center mt-3">&copy; 2020 Jane Eyre</div>
+      </div>
+    </footer>
     <!-- jQuery and JS bundle w/ Popper.js -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

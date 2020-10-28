@@ -87,3 +87,26 @@ header {
   width: 320px;
   border: 2px solid $color-two;
 }
+
+.footer-text {
+  font-size: 12.6px;
+  color: $ccolor-six;
+}
+
+input {
+  width: 100%;
+  max-width: 524px;
+}
+
+.contact-left-text {
+  font-weight: 700;
+}
+
+input {
+  width: 524px;
+}
+
+textarea {
+  width: 524px;
+  height: 182px;
+}

@@ -80,4 +80,27 @@ header {
   width: 320px;
   border: 2px solid #00d900;
 }
+
+.footer-text {
+  font-size: 12.6px;
+  color: #a4a4a4;
+}
+
+input {
+  width: 100%;
+  max-width: 524px;
+}
+
+.contact-left-text {
+  font-weight: 700;
+}
+
+input {
+  width: 524px;
+}
+
+textarea {
+  width: 524px;
+  height: 182px;
+}
 /*# sourceMappingURL=main.css.map */
