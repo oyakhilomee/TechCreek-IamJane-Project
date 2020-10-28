@@ -39,10 +39,6 @@ header {
   color: #a4a4a4;
 }
 
-#gallery {
-  height: 100vmin;
-}
-
 .left-landing {
   width: 100%;
   max-width: 410px;
@@ -73,12 +69,7 @@ header {
 .about-me-p {
   font-weight: 700;
   font-size: 30px;
-}
-
-.gallery-image {
-  height: 349px;
-  width: 320px;
-  border: 2px solid #00d900;
+  margin-top: 70px;
 }
 
 .footer-text {
@@ -86,21 +77,28 @@ header {
   color: #a4a4a4;
 }
 
-input {
-  width: 100%;
-  max-width: 524px;
+.gallery-img {
+  height: 349px;
+  width: 320px;
+  border: 1px solid #00d900;
 }
 
-.contact-left-text {
+.showcase-img {
+  height: 541px;
+  width: 441px;
+}
+
+.form-control {
+  background-color: #1e2122;
+  border: 1px solid #a4a4a4;
+  color: white;
+}
+
+.btn-form {
+  border-color: #a4a4a4;
+}
+
+.contact-text {
   font-weight: 700;
-}
-
-input {
-  width: 524px;
-}
-
-textarea {
-  width: 524px;
-  height: 182px;
 }
 /*# sourceMappingURL=main.css.map */

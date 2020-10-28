@@ -46,10 +46,6 @@ header {
   color: $ccolor-six;
 }
 
-#gallery {
-  height: 100vmin;
-}
-
 .left-landing {
   width: 100%;
   max-width: 410px;
@@ -80,12 +76,7 @@ header {
 .about-me-p {
   font-weight: 700;
   font-size: 30px;
-}
-
-.gallery-image {
-  height: 349px;
-  width: 320px;
-  border: 2px solid $color-two;
+  margin-top: 70px;
 }
 
 .footer-text {
@@ -93,20 +84,27 @@ header {
   color: $ccolor-six;
 }
 
-input {
-  width: 100%;
-  max-width: 524px;
+.gallery-img {
+  height: 349px;
+  width: 320px;
+  border: 1px solid $color-two;
 }
 
-.contact-left-text {
+.showcase-img {
+  height: 541px;
+  width: 441px;
+}
+
+.form-control {
+  background-color: $color-one;
+  border: 1px solid $ccolor-six;
+  color: white;
+}
+
+.btn-form {
+  border-color: $ccolor-six;
+}
+
+.contact-text {
   font-weight: 700;
-}
-
-input {
-  width: 524px;
-}
-
-textarea {
-  width: 524px;
-  height: 182px;
 }
